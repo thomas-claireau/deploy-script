@@ -53,8 +53,6 @@ set -x
 # Build script
 cd ~/$chemin$dossier_final
 source ~/.bashrc
-npm install
-npm run build
 EOT
 
 		# Create empty folder project in cpanel server (+ create empty build.sh executable)
